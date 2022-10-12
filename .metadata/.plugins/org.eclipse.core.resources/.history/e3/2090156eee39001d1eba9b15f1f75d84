@@ -1,0 +1,11 @@
+package GEG;
+
+class Geeks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int var = 10;
+		System.out.println("Local variable:" + var);
+	}
+
+}

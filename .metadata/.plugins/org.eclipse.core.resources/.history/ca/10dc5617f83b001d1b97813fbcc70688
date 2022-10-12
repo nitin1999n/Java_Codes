@@ -1,0 +1,191 @@
+package com.pattern;
+
+import java.util.Scanner;
+public class ques2 {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+//		int n=5;
+//		int row = 1;
+//		int nst=n;
+//		while(row<n) {
+//			int cst=1;
+//			while(cst<nst) {
+//				System.out.print("x");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst--;
+//			
+//		}
+		//------------------ques4---------------------
+//		int n=5;
+//		int row=1;
+//		int nst=1;
+//		int nsp=n-1;
+//		while (row<=n) {
+//			int csp=1;
+//			while (csp<=nsp) {
+//				System.out.print("  ");
+//				csp++;
+//			}
+//			int cst=1;
+//			while (cst<=nst) {
+//				System.out.print("x ");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst++;
+//			nsp--;
+//		}
+//--------------------ques5---------------------
+//		int n=5;
+//		int row=1;
+//		int nst=n;
+//		int nsp=0;
+//		while (row<=n) {
+//			int csp=1;
+//			while (csp<=nsp) {
+//				System.out.print("  ");
+//				csp++;
+//			}
+//			int cst=1;
+//			while (cst<=nst) {
+//				System.out.print("* ");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst--;
+//			nsp++;
+//		}
+//------------------ques6-------------------		
+//		int n=5;
+//		int row=1;
+//		int nst=n;
+//		int nsp=0;
+//		while (row<=n) {
+//			int csp=1;
+//			while (csp<=nsp) {
+//				System.out.print("  ");
+//				csp++;
+//			}
+//			int cst=1;
+//			while (cst<=nst) {
+//				System.out.print("* ");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst--;
+//			nsp+=2;
+//		}
+//--------------------ques7-----------------------
+//		int n=5;
+//		int row=1;
+//		while(row<=n) 
+//		{
+//			int cst=1;
+//			while(cst<=n) 
+//			{if (row==1 || row==n) {
+//				System.out.print("x ");
+//			}else {
+//				if(cst==1 || cst==n) {
+//					System.out.print("x ");
+//					}
+//				else
+//					System.out.print("  ");
+//			}
+//			cst++;
+//
+//			}
+//			row++;
+//			System.out.println();
+//------------------------------ques8------------------	
+//			int n=5;
+//			int row=1;
+//			while(row<=n) 
+//			{
+//				int cst=1;
+//				while(cst<=n) 
+//				{
+//					if (cst==row || cst==n-row+1)
+//					{
+//						System.out.print("x ");
+//					}
+//					else
+//						System.out.print("  ");
+//				}
+//				cst++;
+//		}
+//			row++;
+//			System.out.println();
+//-------------------------------ques9------------
+//		int n=5;
+//		int row=1;
+//		int nst=1;
+//		int nsp=n-1;
+//		while (row<=n) {
+//			int csp=1;
+//			while (csp<=nsp) {
+//				System.out.print("  ");
+//				csp++;
+//			}
+//			int cst=1;
+//			while (cst<=nst) {
+//				System.out.print("* ");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst+=2;
+//			nsp--;
+//		}
+//-------------------ques10---------------
+//		int n=5;
+//		int row=1;
+//		int nst=2*n-1;
+//		int nsp=0;
+//		while (row<=n) {
+//			int cst=1;
+//			int csp=1;
+//			while (csp<=nsp) {
+//				System.out.print("  ");
+//				csp++;
+//			}
+//			
+//			while (cst<=nst) {
+//				System.out.print("* ");
+//				cst++;
+//			}
+//			System.out.println();
+//			row++;
+//			nst-=2;
+//			nsp++;
+//		}
+		int n=5;
+		int row=1;
+		int nst=2*n-1;
+		int nsp=0;
+		while (row<=n) {
+			int cst=1;
+			int csp=1;
+			while (csp<=nsp) {
+				System.out.print("  ");
+				csp++;
+			}
+			
+			while (cst<=nst) {
+				System.out.print("* ");
+				cst++;
+			}
+			System.out.println();
+			row++;
+			nst-=2;
+			nsp++;
+		}
+	}
+
+}

@@ -1,0 +1,107 @@
+package Day8;
+
+import java.util.Scanner;
+
+public class Day8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub\
+		
+//	int[] arr=new int[5];
+//	System.out.println(arr);
+//	arr[0]=1;
+//	arr[1]=3;
+//	arr[2]=5;
+//	arr[3]=8;
+//	arr[4]=10;
+//	System.out.println(arr[0]+" "+arr[1]+" "+arr[2]+" "+arr[3]+" "+arr[4]);
+//==================
+//	int[] arr=new int[5];
+//	Scanner scan=new Scanner(System.in);
+//	for(int i=0;i<arr.length;i++) {
+//		arr[i]=scan.nextInt();
+//	}
+//	display(arr);
+//	}
+//	public static void display(int[] arr) {
+//		for(int i=0;i<arr.length;i++) {
+//			System.out.println(arr[i]);
+//		}
+//======================
+//		int[] arr=new int[5];
+//		Scanner scan=new Scanner(System.in);
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i]=scan.nextInt();
+//		}
+//		display(arr);
+//		}
+//		public static void display(int[] arr) {
+//			for(int i=0;i<arr.length;i++) {
+//				System.out.print(arr[i]);
+//			}
+//		public static void max(int[] arr) {
+//			int maxno=0;
+//			for(int i=0;i<arr.length;i++) {
+//				if(arr[i]>maxno) {
+//				maxno=arr[i];
+//			
+//		return maxno;
+//		}}
+//===========================
+//		int[] arr=new int[5];
+//		Scanner scan=new Scanner(System.in);
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i]=scan.nextInt();
+//		}
+////		display(arr);
+////		System.out.println("max no is "+max(arr));
+////		System.out.println("search is "+search(arr,50));
+//		System.out.println("original arry is");
+//		display(arr);
+//		System.out.println("reverse arry is ");
+//		display(reverse(arr));
+//		System.out.println("original");
+//		display(arr);
+//		
+//	}
+//		public static void display(int[] arr) {
+//			for(int i=0;i<arr.length;i++) {
+//				System.out.println(arr[i]);
+//			}}
+//			public static void min(int[] arr) {
+//				int minno=Integer.MAX_VALUE;
+//				for(int i=0;i<arr.length;i++) {
+//					minno=Math.min(minno, arr[i]);
+//				}
+//			}
+//			public static void max(int[] arr) {
+//				int maxno=0;
+//				for(int j=0;j<arr.length;j++) {
+//					if(arr[j]>maxno) {
+//					maxno=arr[j];
+//					}
+//					}
+//				}
+//			public static int search(int[] arr,int item){
+//				int a=Integer.MAX_VALUE;
+//				for(int i=0;i<arr.length;i++) {
+//					if(arr[i]==item);
+//					return i;
+//				}
+//				return -1;
+//			}
+//			public static int[] reverse(int[] arr) {
+//				int ansl=arr.length;
+//				int[] ans=new int[ansl];
+//				int j=0;
+//				for(int i=arr.length-1;i>=0;i--) {
+//					ans[j]=arr[i];
+//					j++;
+//				}
+//				return ans;
+//========================
+	}
+}
+
+
+
